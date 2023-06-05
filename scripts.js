@@ -21,3 +21,4 @@ navButton.onclick = function() {
     brand.classList.toggle('width-100px');
 
 }
+
