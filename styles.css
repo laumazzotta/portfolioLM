@@ -184,19 +184,6 @@ html body {
   font-size: 1.5rem;
 }
 
-@keyframes slideInLeft {
-  from {
-    transform: translate3d(-150%, 0, 0);
-    visibility: visible;
-  }
-  to {
-    transform: translate3d(0, 0, 0);
-  }
-}
-.slideInLeft {
-  animation-name: slideInLeft;
-}
-
 span {
   display: inline-block;
 }
