@@ -189,18 +189,6 @@ span {
   display: inline-block;
 }
 
-.hero-title {
-  animation: hero-scroll 0.5s linear forwards;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-}
-
-@keyframes hero-scroll {
-  to {
-    transform: translateX(-800px);
-    opacity: 0;
-  }
-}
 .hero-title > button {
   max-width: -moz-fit-content;
   max-width: fit-content;

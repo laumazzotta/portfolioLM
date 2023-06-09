@@ -213,22 +213,22 @@ span {
     display: inline-block;
   }
 
-.hero-title {
-// display: inline-block;
-// left: 0;
-// top: 200px;
-// position: fixed;
-animation: hero-scroll .5s linear forwards;
-animation-play-state: paused;
-animation-delay: calc(var(--scroll) * -1s);
-}
+// .hero-title {
+// // display: inline-block;
+// // left: 0;
+// // top: 200px;
+// // position: fixed;
+// // animation: hero-scroll .5s linear forwards;
+// // animation-play-state: paused;
+// animation-delay: calc(var(--scroll) * -1s);
+// }
 
-@keyframes hero-scroll {
-to {
-    transform: translateX(-800px);
-    opacity: 0;
+// @keyframes hero-scroll {
+// to {
+//     transform: translateX(-800px);
+//     opacity: 0;
     
-}}
+// }}
 
 .hero-title > button {
     max-width: fit-content;
