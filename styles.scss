@@ -260,7 +260,7 @@ to {
 }
 
 #about {
-  height: 70vh;
+  height: auto;
 }
 
 .skills-container {
@@ -517,7 +517,10 @@ to {
   }  
   
   .hero-background {
-        background-image: url(images/back-header-mobile.png);
+        background-image: url(images/back-header-mobile-2.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
         
     }
 
@@ -638,7 +641,7 @@ to {
     }
 
     #about {
-      height: 80vh;
+      height: auto;
     }
 
     .card-skills:nth-child(1) {

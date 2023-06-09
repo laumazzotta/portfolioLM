@@ -233,7 +233,7 @@ span {
 }
 
 #about {
-  height: 70vh;
+  height: auto;
 }
 
 .skills-container {
@@ -488,7 +488,10 @@ span {
     width: 90% !important;
   }
   .hero-background {
-    background-image: url(images/back-header-mobile.png);
+    background-image: url(images/back-header-mobile-2.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .hero-title {
     top: 40% !important;
@@ -574,7 +577,7 @@ span {
     left: 50%;
   }
   #about {
-    height: 80vh;
+    height: auto;
   }
   .card-skills:nth-child(1) {
     border-top-right-radius: 20px;
